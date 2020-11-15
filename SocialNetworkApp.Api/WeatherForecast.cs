@@ -1,6 +1,6 @@
 using System;
 
-namespace SocialNetworkApp
+namespace SocialNetworkApp.Api
 {
     public class WeatherForecast
     {
