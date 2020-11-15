@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SocialNetworkApp.Domain\SocialNetworkApp.Domain.csproj" />
+    <ProjectReference Include="..\SocialNetworkApp.Persistance\SocialNetworkApp.Persistance.csproj" />
+  </ItemGroup>
+
 </Project>
