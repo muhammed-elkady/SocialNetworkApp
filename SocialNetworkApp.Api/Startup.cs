@@ -36,6 +36,7 @@ namespace SocialNetworkApp.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            // TODO: uncomment when https is ready
             app.UseHttpsRedirection();
 
             app.UseRouting();
